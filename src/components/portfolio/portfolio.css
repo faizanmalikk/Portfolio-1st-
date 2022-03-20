@@ -1,0 +1,77 @@
+.portfolio-header h2{
+color: var(--color-primary);
+}
+.portfolio-area{
+    background-color: var(--color-bg-variant)!important;
+    border-radius: 1.5em!important;
+    transition: var(--transition);
+    border: 1px solid transparent;
+    position: relative;
+}
+.portfolio-img img{
+    height: 10em;
+     margin-top: 1.2em; 
+     padding-left: 25px;
+     padding-right: 25px;
+      border-radius: 2.5em ;
+   
+}
+.portfolio-title h4{
+    font-size: 23px;
+    margin-top: 23px;
+    margin-left: 34px;
+}
+.portfolio-gitbtn{
+    margin-left: 35px;
+    font-size: 20px!important;
+    padding: 0.65rem 1rem !important;
+
+}
+
+.portfolio-demo{
+    margin-left: 10px;
+    font-size:23px!important ;
+}
+.portfolio-area:hover{
+    background: transparent!important;
+    border: 1px solid var(--color-primary);
+
+}
+/* ========= Media Quries(Medium)========= */
+@media screen and (max-width : 1558px) {
+    .portfolio-gitbtn{
+        font-size: 15px!important;
+        padding: 0.35rem 0.6rem !important;
+        margin-top: -10px;
+        
+    }
+    .portfolio-title h4{
+           font-size: 18px;
+    }
+
+}
+@media screen and (max-width : 1234px) {
+    .portfolio-gitbtn{
+        font-size: 10px!important;
+        padding: 0.35rem 0.5rem !important;
+        margin-top: -25px;
+        
+    }
+    .portfolio-title h4{
+           font-size: 15px;
+    }
+
+}
+@media screen and (max-width : 575px) {
+  .portfolio-area{
+      margin-bottom: 1em;
+  }
+
+}
+@media screen and (max-width : 280px) {
+  .portfolio-gitbtn{
+      position: relative;
+      left: 20%;
+  }
+
+}

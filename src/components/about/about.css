@@ -1,0 +1,220 @@
+
+/* .about-container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+
+} */
+.about-title h1{
+    color: var(--color-primary);
+}
+.about-img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    border-radius: 1em;
+    background:linear-gradient( 45deg, transparent , var(--color-primary) , transparent) ;
+    display: grid;
+    place-items: center;
+}
+.about-me-img{
+    border-radius: 1em;
+    overflow: hidden;
+    transform: rotate(15deg);
+    transition: var(--transition);
+}
+.about-me-img:hover{
+    transform: rotate(0);
+     
+}
+
+.about-card{
+    
+    background: var( --color-bg-variant);
+   
+    height: 10em;
+    width: 8em;
+    border: 1px solid transparent;
+    border-radius: 0.8em;
+    transition: var(--transition);
+}
+.about-card:hover{
+    cursor: default;
+   background: transparent;
+   border-color: var(--color-primary-variant);
+}
+.about-icons{
+    margin-top: 1.4em;
+    color: var(--color-primary);
+    font-size: 1.3em;
+    margin-bottom: 30px;
+}
+.about-card h5{
+    font-size: 0.95rem;
+}
+.about-card small{
+    font-size: 0.7rem;
+}
+/* ========= Media Quries(Medium)========= */
+@media screen and (max-width : 595px) {
+#about{
+    margin-top: 1em;
+}
+
+}
+/* @media screen and (max-width : 595px) {
+#about{
+    margin-top: 3em;
+}
+} */
+
+/* ========= Media Quries(Medium)========= */
+@media screen and (max-width : 768px) {
+
+   .about-img{
+       width: 70%;
+
+       margin: 2rem auto 4rem
+   }
+   .about-content p{
+    font-size: 12px ;
+    margin-top: 18px!important;
+}
+   .about-card{
+     
+    margin: 0 auto;
+     
+       margin-bottom: 10px;
+    }
+    .btn{
+        margin-top: -50px;
+        padding: 10px 10px !important;
+        font-size: 10px!important;
+    
+    }
+    .about-content{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      gap: 1em;
+    
+    }
+
+    }
+
+
+      @media screen and (max-width : 1440px) and (min-width : 768px) 
+      { 
+.about-card {
+height: 8em;
+width: 6em;
+}
+.about-card h5{
+    font-size: 15px;
+    font-weight: bold;
+}
+.about-card small{
+    font-size: 10px;
+}
+
+
+     }
+     @media screen and (max-width : 1145px) and (min-width : 768px) {
+     
+    
+        .about-card {
+            height: 6em;
+            width: 4em;
+            position: relative;
+            }
+            .about-card h5{
+                font-size: 10px;
+                font-weight: bold;
+            }
+            .about-card small{
+                font-size: 8px;
+            position: absolute;
+            bottom: 2.5em;
+            left: 15px;
+            margin: 0 auto;
+            }
+            .about-content p{
+                font-size: 12px ;
+                margin-top: 18px!important;
+            }
+            .ab-2 small{
+               
+                left: 22.5px;
+            }
+            .btn{
+                margin-top: -50px;
+                padding: 10px 10px !important;
+                font-size: 10px!important;
+            }
+            .about-icons{
+                font-size: 22px;
+            }
+        } 
+    
+    
+    
+    
+    
+    
+    
+        /* ========= Media Quries(small)========= */
+     /* @media screen and (max-width : 600px) {
+    .about-img{
+    width: 40%;
+    margin-left: 0; 
+ display: flex;
+ justify-content: center;
+
+ 
+    }
+    .about-cards{
+        gap: 0;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem; 
+    }
+   .about-content{
+       text-align: center;
+   }
+   .about-content p {
+       margin: 1.5rem 0;
+   }
+
+     } */
+
+
+
+
+    /* ========= Media Quries(small)========= */
+    /* @media screen and (max-width : 400px) { */
+    /* .about-img{ */
+   /* width: 60%; */
+   /* margin-left: 0; */
+  /* margin: 0 auto 3rem;
+
+  transform: translateX(-15%); 
+  
+    } */
+    /* .about-cards{ */
+         /* grid-template-columns: 1fr 1fr;
+        gap: 0.5em;
+        
+   
+         margin: 0 auto;
+       position: relative;
+       left: -24px; 
+     
+    }
+    .about-card{
+        margin-left: 0;
+        height: 10em;
+        width: 7em;
+    }
+
+     }   */
+ 

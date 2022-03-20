@@ -1,0 +1,76 @@
+ .experience-title h1{
+color: var(--color-primary);
+}
+.ex-frontend,.ex-backend{
+    background: var(--color-bg-variant);
+}
+.ex-frontend{
+
+    position: relative;
+}
+.ex-frontend,.ex-backend{
+    border: 1px solid transparent;
+    border-radius: 1em;
+    transition: var(--transition);
+}
+.ex-frontend:hover,.ex-backend:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+.ex-backend{
+    display: flex;
+    flex-direction: column;
+       align-items: center;
+    
+}
+.ex-java,.ex-html,.ex-tail{
+ padding-left: 2em !important;
+} 
+  /* ========= Media Quries========= */
+  @media screen and (max-width : 768px) {
+ 
+    .ex-frontend{
+        margin-bottom: 1em;
+    }
+    .ex-java,.ex-html,.ex-tail{
+        padding-left: 19px !important;
+       } 
+     
+
+    
+  }
+  @media screen and (max-width : 1414px) {
+     
+    .ex-frontend small ,.ex-backend small{
+        font-size: 12px;
+    }
+    .ex-frontend p, .ex-backend p{
+        font-size: 10px!important;
+    }
+  }
+
+@media screen and (max-width : 767px) {
+  .ex-frontend2   {
+   padding-left: 37% ;
+  }
+}
+@media screen and (max-width : 414px) {
+  .ex-frontend2   {
+   padding-left: 31% ;
+  }
+}
+@media screen and (max-width : 280px) {
+  .ex-frontend2   {
+   padding-left: 23% ;
+  }
+}
+@media screen and (max-width : 991px) and (min-width : 768px) {
+ 
+   .ex-frontend small ,.ex-backend small{
+    font-size: 8px;
+}
+.ex-frontend p, .ex-backend p{
+    font-size: 10px!important;
+}
+
+}

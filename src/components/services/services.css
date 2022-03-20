@@ -1,0 +1,48 @@
+.services-title h2{
+  color: var(--color-primary);
+}
+.services-area{
+
+  border: 1px solid var(--color-primary);
+  border-radius: 0 0 2em 2em;
+  background-color: var(--color-bg-variant);
+  transition: var(--transition);
+}
+.services-area:hover{
+  background-color: transparent;
+}
+.services-heading{
+
+  color: black;
+  height: 4em;
+
+  background-color: var(--color-primary);
+  border-radius: 0 0 2em 2em;
+  
+}
+.services-list div{
+  display: flex;
+  margin-left: 1em;
+
+  margin-right: 1.8em;
+  text-align: justify;
+
+}
+.services-list p {
+  font-size: 14px;
+}
+.service-icon {
+  font-size: 18px;
+  margin-top: 6px;
+ 
+}
+/* ========= Media Quries(Medium)========= */
+@media screen and (max-width : 575px) {
+.services-area{
+  margin-top: 17px;
+}
+}
+
+
+
+/* Some work needed on tablets */
