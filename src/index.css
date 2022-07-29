@@ -38,9 +38,6 @@ html {
   scroll-behavior: smooth;
 }
 
-/* ::-webkit-scrollbar{
-  display: none;
-} */
 body{
   background-color: var(--color-bg);
   color: var(--color-white);
@@ -53,7 +50,7 @@ body{
 .container {
   width: var(--conatiner-width-lg);
   margin: 0 auto;
-} */
+} 
 h1,h2,h3,h4,h5{
   font-weight: 400;
 }
